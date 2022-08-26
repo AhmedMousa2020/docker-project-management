@@ -31,7 +31,7 @@ Project Management Web App
   - your_serve\api\get-user-issues?user_id
 
 ## database Notes
-- admin: email => `admin1@example.com` , password => `password`
+- admin-login: email => `admin1@example.com` , password => `password`
 
 ## Additional Notes
 - thare are a PHP Decomntor Created in app folder  for http files

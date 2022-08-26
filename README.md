@@ -103,13 +103,18 @@ docker-compose run --rm artisan migrate --seed
 
 # addtional command
 
-# php artisan
-# php /var/www/html/artisan migrate:fresh --seed
+```sh
+ php artisan
+ php /var/www/html/artisan migrate:fresh --seed
 
-# composer install 
+ composer install 
 
+<<<<<<< HEAD
 # docker-compose run --rm npm install 
 
+=======
+ docker-compose run --rm npm install 
+>>>>>>> eff6f9f7aa07e16b279db591c85d6629a961b100
  docker-compose run --rm artisan clear:data
  docker-compose run --rm artisan cache:clear 
  docker-compose run --rm artisan view:clear 
@@ -119,4 +124,9 @@ docker-compose run --rm artisan migrate --seed
  docker-compose run --rm artisan key:generate
  docker-compose run --rm artisan storage:link
  docker-compose run --rm artisan migrate --seed
+<<<<<<< HEAD
  docker-compose run --rm artisan passport:install
+=======
+ docker-compose run --rm artisan passport:install
+ ```
+>>>>>>> eff6f9f7aa07e16b279db591c85d6629a961b100
