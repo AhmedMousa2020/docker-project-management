@@ -109,7 +109,7 @@ docker-compose run --rm artisan migrate --seed
 # composer install 
 
 # docker-compose run --rm npm install 
-
+```sh
  docker-compose run --rm artisan clear:data
  docker-compose run --rm artisan cache:clear 
  docker-compose run --rm artisan view:clear 
@@ -120,3 +120,4 @@ docker-compose run --rm artisan migrate --seed
  docker-compose run --rm artisan storage:link
  docker-compose run --rm artisan migrate --seed
  docker-compose run --rm artisan passport:install
+ ```
