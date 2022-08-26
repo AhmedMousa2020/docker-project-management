@@ -103,13 +103,13 @@ docker-compose run --rm artisan migrate --seed
 
 # addtional command
 
-# php artisan
-# php /var/www/html/artisan migrate:fresh --seed
-
-# composer install 
-
-# docker-compose run --rm npm install 
 ```sh
+ php artisan
+ php /var/www/html/artisan migrate:fresh --seed
+
+ composer install 
+
+ docker-compose run --rm npm install 
  docker-compose run --rm artisan clear:data
  docker-compose run --rm artisan cache:clear 
  docker-compose run --rm artisan view:clear 
